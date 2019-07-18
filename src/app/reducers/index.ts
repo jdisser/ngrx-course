@@ -2,8 +2,7 @@ import {
   ActionReducer,
   ActionReducerMap,
   createFeatureSelector,
-  createSelector,
-  MetaReducer
+  createSelector
 } from '@ngrx/store';
 
 
