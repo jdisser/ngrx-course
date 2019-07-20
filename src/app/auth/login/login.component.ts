@@ -44,7 +44,7 @@ export class LoginComponent implements OnInit {
       .pipe(
         tap(
           user => {
-            console.log(user);
+            // console.log(user);
 
             const newLoginAction = login({user});
 
